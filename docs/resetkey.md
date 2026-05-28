@@ -22,4 +22,10 @@ Remember to delete the file for your server security.
 ![resetkey-2](/static/docs/resetkey-2.png)
 ![resetkey-3](/static/docs/resetkey-3.png)
 
+:::warning 注意
+
+使用密钥登录后请把系统生成的`INITIAL_ACCESS_KEY.txt`文件删除
+
+:::
+
 重置完成！可以前往网页控制台(http://<服务器的公网IP>:3000)使用opanel了！

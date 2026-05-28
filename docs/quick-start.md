@@ -9,7 +9,7 @@ OPanel本质上是一个插件 / 模组，因此安装OPanel实际上就是将OP
 - Github Releases：<https://github.com/opanel-mc/opanel/releases>
 - Curseforge：<https://curseforge.com/minecraft/bukkit-plugins/opanel>
 
-由于各个平台与版本特性各不相同，因此在一个OPanel版本的下载列表内通常包含针对不同版本的多个jar包。这些jar包的文件名格式为`opanel-<服务端>-<游戏版本>-build-<OPanel版本>.jar`。
+由于各个平台与版本特性各不相同，因此每个OPanel版本的下载列表中通常包含针对不同版本的多个jar包。这些jar包的文件名格式为`opanel-<服务端>-<游戏版本>-build-<OPanel版本>.jar`。
 
 :::info
 
@@ -50,7 +50,7 @@ Remember to delete the file for your server security.
 ============================================================
 ```
 
-此时，系统自动随机生成了一个访问密钥，你可以在`opanel`文件夹中的`INITIAL_ACCESS_KEY.txt`文件找到这个访问密钥。
+此时，系统自动随机生成了一个访问密钥，你可以在`opanel`文件夹中的`INITIAL_ACCESS_KEY.txt`文件中找到这个访问密钥。
 
 ![quick-start-1](/static/docs/quick-start-1.png)
 
@@ -60,7 +60,7 @@ Remember to delete the file for your server security.
 
 :::info
 
-使用初始密码登录后，请务必妥善保管密钥，并将系统生成的`INITIAL_ACCESS_KEY.txt`文件删除，以减少安全隐患。
+使用访问密钥登录后，请务必妥善保管密钥，并将系统生成的`INITIAL_ACCESS_KEY.txt`文件删除，以减少安全隐患。
 
 :::
 

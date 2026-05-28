@@ -32,7 +32,7 @@
 
 ## 进阶配置
 
-OPanel与MCDR通信的原理是：`opanel_mcdr_bridge`插件在服务器回环地址的`25576`端口上开放一个Socket服务，OPanel检测到MCDR环境后主动连接到该端口。
+OPanel与MCDR通信的原理是：`opanel_mcdr_bridge`插件在服务器回环地址的`25576`端口上启动一个Socket服务，OPanel检测到MCDR环境后主动连接到该端口。
 
 由于这个Socket服务没有做任何鉴权，因此建议**不要开放这个端口**，仅供内部连接使用。如果需要修改端口，可以参考下面的方法。
 
